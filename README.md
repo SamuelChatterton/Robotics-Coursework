@@ -1,4 +1,4 @@
-# Robotics-Coursework
+# Robotics-Coursework-Team-2
 Samuel Chatterton - 19159885
 George Mathew - 19314027 
 Ramazan Gurpinar - 19299326 
