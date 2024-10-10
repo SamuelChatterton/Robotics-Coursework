@@ -14,7 +14,7 @@ def cozmo_program(robot: cozmo.robot.Robot):
             print("Cliff detected! Reversing and turning right.")
             robot.drive_wheels(-50, -50, duration=2.0)  #Reverse for 2 seconds
             robot.turn_in_place(degrees(-90)).wait_for_completed()  #Turn 90 degrees right
-            continue  #Repeat from start of a while loop
+            continue  #Repeat from start of while loop
         else:
             print("No cliff detected. going straight")
             continue
